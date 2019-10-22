@@ -53,9 +53,10 @@ public class InfixExpressionEvaluator<T> extends MyStack<T>{
 	    }//end evaluateInfix
 	    
 	    private static String[] infixToPostfix(String infix) {
-	    	//contains the expression in infix form
-			String[] infixArray = infix.split(" "); 
-			
+	    	//contains the expression in infix form. remove all white spaces
+			String[] infixArray = infix.split("\\s");
+			infixArray = infix.trim().split("\\s+");
+
 			//contains the expression in postfix form w/o parenthesis
 			String[] postfixArray;
 			
@@ -93,7 +94,7 @@ public class InfixExpressionEvaluator<T> extends MyStack<T>{
 
 			//check validity of expression
 			boolean valid = isValid(infixArray);
-			if(!valid) {
+			if(valid == false) {
 				//flag for an invalid expression entered
 				postfixArray[0] = "!";
 				return postfixArray;
@@ -203,8 +204,8 @@ public class InfixExpressionEvaluator<T> extends MyStack<T>{
 					if(isBinaryOperator(arr[j])){
 						return false;
 					}
-					j++;
 				}
+				j++;
 			}
 			return true;
 		}
