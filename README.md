@@ -1,2 +1,2 @@
 # Android-Calculator-App 
-![Alt Text](C:\Users\Ctint\Desktop\MyCalculatorDemo.gif)
+![Alt Text](https://media.giphy.com/media/YOdxvZUmNu6Sux1qKj/giphy.gif)
