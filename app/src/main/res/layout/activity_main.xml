@@ -8,16 +8,16 @@
     android:background="@android:color/background_dark">
 
     <EditText
-        android:layout_width="350dp"
-        android:layout_height="190dp"
+        android:layout_width="390dp"
+        android:layout_height="220dp"
         android:id="@+id/editText"
         android:textColor="@android:color/background_light"
         android:text=""
-        android:textSize="60dp"
+        android:textSize="30dp"
         android:gravity="right"
         android:background="@android:color/background_dark"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="15dp"
         />
     <Button
         android:layout_width="120dp"

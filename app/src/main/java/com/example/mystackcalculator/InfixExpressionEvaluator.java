@@ -26,6 +26,7 @@ public class InfixExpressionEvaluator<T> extends MyStack<T>{
 	    		return "INVALID";
 
 	    	int i = 0;
+	    	double result = 0;
 	    	while(i < postfixStr.length) {
 	    		//if a number, push onto stack
 	    		if(isNumeric(postfixStr[i])) {
@@ -41,19 +42,20 @@ public class InfixExpressionEvaluator<T> extends MyStack<T>{
 	    			double a = Double.parseDouble(stack.pop());
 	    			String op = postfixStr[i]; 
 	    			i++;
-	    			double result = calculate(a,op,b);
+	    			result = calculate(a,op,b);
 	    			stack.push(Double.toString(result));
 	    			if(i >= postfixStr.length) break;
 	    		}
 	    	}//end while
+
 	    	
-	    	//this is the final value
+	    	//this is the final value rounded to 6 decimal places
 			return stack.pop();
 
 	    }//end evaluateInfix
 	    
 	    private static String[] infixToPostfix(String infix) {
-	    	//contains the expression in infix form. remove all white spaces
+	    	//contains the expression in infix form, removing all white spaces
 			String[] infixArray = infix.split("\\s");
 			infixArray = infix.trim().split("\\s+");
 
