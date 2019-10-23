@@ -1,2 +1,2 @@
 # Android-Calculator-App 
-[[ http://www.sheawong.com/wp-content/uploads/2013/08/keephatin.gif | height = 100px ]]
+[[C:\Users\Ctint\Desktop\MyCalculatorDemo.gif | height = 100px ]]
