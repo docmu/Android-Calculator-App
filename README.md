@@ -7,4 +7,5 @@ This is the first major Android app I created. I've previously did a project cal
 <h3>Simple Expression: (1 + 5) * 3 = 18.0</h3>
 <a href="https://imgflip.com/gif/3na63q"><img src="https://i.imgflip.com/3na63q.gif" title="made at imgflip.com"/></a>
 <h3>Complex Expression: 2^((8+32) / (156-(8+20))) + 10 = 14.0</h3>
-<iframe src="https://giphy.com/embed/YOdxvZUmNu6Sux1qKj" width="270" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/YOdxvZUmNu6Sux1qKj">via GIPHY</a></p>
+<a href="https://giphy.com/gifs/YOdxvZUmNu6Sux1qKj"><img src="https://giphy.com/embed/YOdxvZUmNu6Sux1qKj"></a>
+
