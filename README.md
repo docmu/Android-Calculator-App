@@ -5,6 +5,6 @@ This is the first major Android app I created. I've previously did a project cal
 
 # App Demo
 # Simple Expression
-![](https://imgflip.com/gif/3na63q)
+<a href="https://imgflip.com/gif/3na63q"><img src="https://i.imgflip.com/3na63q.gif" title="made at imgflip.com"/></a>
 # Complex Expression
 ![Alt Text](https://media.giphy.com/media/YOdxvZUmNu6Sux1qKj/giphy.gif)
