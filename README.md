@@ -10,6 +10,7 @@ Complex Expression: 2^((8*32) / (156-(8+20))) + 10 = 14.0
 Simple Expression: (1 + 5) * 3 = 18.0  
 <a href="https://imgflip.com/gif/3na63q"><img src="https://i.imgflip.com/3na63q.gif" title="made at imgflip.com"/></a>
 
-Invalid Expression: 
-<a href="https://imgflip.com/gif/3na92j"><img src="https://i.imgflip.com/3na92j.gif" title="made at imgflip.com"/></a>
+Invalid Expression: 1 + + 2 = INVALID  
+<a href="https://imgflip.com/gif/3na9hs"><img src="https://i.imgflip.com/3na9hs.gif" title="made at imgflip.com"/></a>
+
 
